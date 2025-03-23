@@ -9,7 +9,7 @@ async function setupCosmosDb() {
     key: cosmosDb.key,
   });
 
-  console.log("CosmosDB Config:", cosmosDb); // Debugging output
+  console.log("CosmosDB Config:", cosmosDb);
 
   if (!cosmosDb.databaseId || typeof cosmosDb.databaseId !== "string") {
     throw new Error("Invalid databaseId in CosmosDB config");
