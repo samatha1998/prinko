@@ -6,4 +6,5 @@ const router = express.Router();
 router.post("/signup", signUp);
 router.post("/login", login);
 
+//samantha
 export default router;
